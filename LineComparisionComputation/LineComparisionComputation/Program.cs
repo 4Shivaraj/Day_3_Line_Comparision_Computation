@@ -1,5 +1,4 @@
-﻿//Console.WriteLine("Welcome to Line Comparision Computation Problem");
-using System;
+﻿using System;
 namespace LineComparisonProblem
 {
     class Program
@@ -9,6 +8,7 @@ namespace LineComparisonProblem
             Console.WriteLine("==========Welcome To Line Comparison Computation Program==========");
             LineLength length = new LineLength();
             length.CalculateLength(); //Call The Methods
+            length.CheckEquality();
             Console.ReadLine();
         }
     }
